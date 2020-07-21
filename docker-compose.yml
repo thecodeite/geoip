@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  deno-ip:
+    image: "docker.codeite.net/deno-ip:0.0.3"
+    build: .
+    ports:
+      - "12021:12021"
